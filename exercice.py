@@ -9,6 +9,7 @@ def majuscule(mot):
         lettre = ord(lettre) - distance_entre_min_et_maj 
         resultat += chr(lettre)
         else:
+            resulat += lettre
     return resultat
 
 
